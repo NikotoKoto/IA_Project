@@ -1,0 +1,56 @@
+# Ignorer les fichiers de l'environnement virtuel
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignorer les fichiers de configuration spécifique à l'éditeur
+.vscode/
+.idea/
+*.swp
+
+# Ignorer les fichiers compilés Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignorer les modèles et fichiers volumineux
+models/
+*.h5
+*.joblib
+
+# Ignorer les fichiers de journalisation
+*.log
+*.out
+
+# Ignorer les fichiers temporaires et fichiers système
+*.tmp
+*.temp
+*.bak
+*.backup
+*.cache
+*.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers de la base de données
+*.sqlite3
+
+# Ignorer les fichiers générés par Streamlit
+.streamlit/
+
+# Ignorer les fichiers de la configuration de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignorer les fichiers et dossiers créés par TensorFlow
+checkpoints/
+events.out.tfevents.*
+
+# Ignorer les fichiers de configuration pour Pytest
+.pytest_cache/
+
+# Ignorer les fichiers de configuration pour MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
