@@ -1,4 +1,4 @@
-# Projet de Classification d'Images
+# Projet Entrainement d'une IA
 
 Ce projet utilise FastAPI pour créer une API de classification d'images et Streamlit pour créer une interface utilisateur. Le modèle de classification utilise MobileNetV2 pré-entraîné pour obtenir des performances optimales.
 
